@@ -20,7 +20,7 @@ RUN \
   #sed -ri -e "s/^allow_url_include.*/allow_url_include = On/" /etc/php5/apache2/php.ini && \
   #sed -ri -e "s/Damn Vulnerable/a Very Vulnerable Nghia/"  /app/index.php && \
   #wget http://gitlab.greenthis.net:8080/logo.jpg  -o /app/logo.jpg  && \
-  wget https://secure.eicar.org/eicar.com -o eicar.txt && \
+  #wget https://secure.eicar.org/eicar.com -o eicar.txt && \
   chmod a+w /app/hackable/uploads  && \
   chmod a+w /app/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt 
      
